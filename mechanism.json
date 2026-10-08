@@ -1,0 +1,2361 @@
+{
+  "preview_only": true,
+  "battery_external_mm": [
+    336,
+    134,
+    74
+  ],
+  "battery_inside_reference_mm": [
+    322,
+    120,
+    60
+  ],
+  "battery_centre_XYZ_mm": [
+    108.337,
+    0,
+    -14
+  ],
+  "limits_deg": [
+    0,
+    90
+  ],
+  "rotors": [
+    {
+      "name": "left_upper",
+      "centre": [
+        158.337,
+        211.3,
+        179.0
+      ],
+      "thrust_direction_cruise": [
+        1,
+        0,
+        0
+      ],
+      "diameter_mm": 228.6,
+      "pitch_mm": 127,
+      "blades": 3,
+      "motor_body_reference_mm": [
+        42,
+        50
+      ]
+    },
+    {
+      "name": "right_upper",
+      "centre": [
+        158.337,
+        -211.3,
+        179.0
+      ],
+      "thrust_direction_cruise": [
+        1,
+        0,
+        0
+      ],
+      "diameter_mm": 228.6,
+      "pitch_mm": 127,
+      "blades": 3,
+      "motor_body_reference_mm": [
+        42,
+        50
+      ]
+    },
+    {
+      "name": "left_lower",
+      "centre": [
+        158.337,
+        211.3,
+        -81.0
+      ],
+      "thrust_direction_cruise": [
+        1,
+        0,
+        0
+      ],
+      "diameter_mm": 228.6,
+      "pitch_mm": 127,
+      "blades": 3,
+      "motor_body_reference_mm": [
+        42,
+        50
+      ]
+    },
+    {
+      "name": "right_lower",
+      "centre": [
+        158.337,
+        -211.3,
+        -81.0
+      ],
+      "thrust_direction_cruise": [
+        1,
+        0,
+        0
+      ],
+      "diameter_mm": 228.6,
+      "pitch_mm": 127,
+      "blades": 3,
+      "motor_body_reference_mm": [
+        42,
+        50
+      ]
+    }
+  ],
+  "wing_spars": {
+    "front": {
+      "centre_X_mm": 494.6401305794716,
+      "centre_Z_mm": 29.054174551315104,
+      "length_mm": 1750,
+      "OD_mm": 14,
+      "ID_mm": 10,
+      "profile_sample_skin_gap_mm": 3.215526234335266,
+      "span_stations_half": 156,
+      "circle_samples": 192,
+      "profile_contour_samples": 80
+    },
+    "rear": {
+      "centre_X_mm": -155.35986942052844,
+      "centre_Z_mm": 97.66261052465076,
+      "length_mm": 1750,
+      "OD_mm": 14,
+      "ID_mm": 10,
+      "profile_sample_skin_gap_mm": 3.21546608835994,
+      "span_stations_half": 156,
+      "circle_samples": 192,
+      "profile_contour_samples": 80
+    }
+  },
+  "no_manufacturing_exports": true,
+  "pivot_XYZ_mm": [
+    108.337,
+    0.0,
+    49.0
+  ],
+  "pivot_axis": "Y",
+  "positive_pitch_rotation_axis": "-Y",
+  "source_preview": "C:\\Users\\Box\\AstraCADWork\\20261008_span1900_four_motor_mesh_preview",
+  "source_sha256": {
+    "model.js": "42bb2631b5c93f7e135020d1a25934d2362a1db1aad0d86cb0a5d9ff429d9cfa",
+    "mechanism.json": "6bb05b05922d804ca77f2ca0869801c860485e051506df6cbe7ed58b60bcad5c",
+    "index.html": "dc6c86cea741fc66f9f435b3d2d2db8dbdc5427caae423ebff548804b416041c",
+    "viewer.js": "647f7e05415c8f0a461f1de7f79f407fca552227ee7fdb638ae7520188cf9c1b"
+  },
+  "bearing_station_count": 4,
+  "bearing_stations": [],
+  "bearing_dimensions_reference_only": true,
+  "bearing_reference_mm": {
+    "bore": 10,
+    "outer_diameter": 26,
+    "width": 8
+  },
+  "motor_and_wing_one_transform": true,
+  "stationary_battery_in_preview": true,
+  "unchanged_wing_mesh": false,
+  "flight_or_structure_validated": false,
+  "rotation_interface_deferred": false,
+  "clearance_verified": false,
+  "unresolved": [
+    "14/10 mm OD/ID is a same-2-mm-wall layout reference; bending, torsion, buckling, landing loads and fatigue have not been sized.",
+    "Bounded wing-only screen and new CFD diagnostic apply only to this candidate. Loaded-aircraft trim, pitch stability, whole-aircraft performance and stall remain unverified.",
+    "Curved tips are fairing/connector geometry, not S1223 sections. Tube/socket bores are preview references; retention, end cuts and manufacturing fits remain unassigned.",
+    "Motion and prop clearance are sampled mesh checks, not continuous collision or loaded-flex proof.",
+    "1900 mm span preview: added mass and 14 mm spar loads require sizing; previous L/D and energy estimates do not validate the extended geometry."
+  ],
+  "side_bearing_count": 4,
+  "one_bearing_per_motor_and_gear_joint": false,
+  "side_bearing_centres_XYZ_mm": [
+    [
+      108.337,
+      -80.0,
+      49.0
+    ],
+    [
+      108.337,
+      -90.0,
+      49.0
+    ],
+    [
+      108.337,
+      80.0,
+      49.0
+    ],
+    [
+      108.337,
+      90.0,
+      49.0
+    ]
+  ],
+  "side_bearings_coaxial_with_battery_centred_pitch": true,
+  "wing_connectors_straight_with_centre_elbow": true,
+  "removed_parts": [
+    "CF_bottom_battery_sandwich_plate",
+    "CF_top_battery_sandwich_plate",
+    "front_X_vertical_spar_direct_to_CF_plate",
+    "rear_X_vertical_spar_direct_to_CF_plate",
+    "front_wing_rigid_plate_bearing_bracket",
+    "front_wing_bearing_outer_race_reference",
+    "front_wing_bearing_inner_race_reference",
+    "front_wing_plate_fastener_-10",
+    "front_wing_plate_fastener_10",
+    "rear_wing_rigid_plate_bearing_bracket",
+    "rear_wing_bearing_outer_race_reference",
+    "rear_wing_bearing_inner_race_reference",
+    "rear_wing_plate_fastener_-10",
+    "rear_wing_plate_fastener_10",
+    "lower_motor_rigid_plate_bearing_bracket",
+    "lower_motor_bearing_outer_race_reference",
+    "lower_motor_bearing_inner_race_reference",
+    "lower_motor_plate_fastener_-10",
+    "lower_motor_plate_fastener_10",
+    "upper_motor_rigid_plate_bearing_bracket",
+    "upper_motor_bearing_outer_race_reference",
+    "upper_motor_bearing_inner_race_reference",
+    "upper_motor_plate_fastener_-10",
+    "upper_motor_plate_fastener_10",
+    "front_straight_wing_to_centre_spar",
+    "front_wing_centre_elbow_joint",
+    "rear_straight_wing_to_centre_spar",
+    "rear_wing_centre_elbow_joint",
+    "left_single_bearing_plate_bracket",
+    "left_bracket_plate_bolt_13.5_-11",
+    "left_bracket_plate_bolt_13.5_11",
+    "left_bracket_plate_bolt_84.5_-11",
+    "left_bracket_plate_bolt_84.5_11",
+    "right_single_bearing_plate_bracket",
+    "right_bracket_plate_bolt_13.5_-11",
+    "right_bracket_plate_bolt_13.5_11",
+    "right_bracket_plate_bolt_84.5_-11",
+    "right_bracket_plate_bolt_84.5_11"
+  ],
+  "CF_plate_flaps_removed": true,
+  "connecting_frame_radius_mm": null,
+  "CF_link_reference_OD_ID_mm": [
+    16,
+    12
+  ],
+  "PA_CF_joints_reference_only": true,
+  "connecting_frame_tube_count": 3,
+  "common_rigid_rotation_connected": true,
+  "battery_CG_reference_XYZ_mm": [
+    108.337,
+    0.0,
+    4.0
+  ],
+  "payload_CG_reference_below_pivot_mm": 45.0,
+  "battery_CG_offset_below_pivot_mm": 45,
+  "combined_payload_CG_computed": false,
+  "battery_orientation_unchanged": false,
+  "battery_lowered_mm": 45.0,
+  "frame_layout": "Two vertical links at rear wing spar, joining upper and lower landing-gear legs and rear wing. All tilt together.",
+  "passive_suspension_dynamic_simulated": false,
+  "single_C_yoke": false,
+  "nested_ring_count": 0,
+  "single_tube_wing_arms": true,
+  "single_tube_upper_lower_motor_arms": true,
+  "battery_long_axis": "X",
+  "battery_yaw_change_deg": -90,
+  "pivot_and_battery_translation_X_mm": 50,
+  "motor_cruise_positions_unchanged": false,
+  "wing_meshes_unchanged": false,
+  "hover_propeller_plane_Z_mm": 99,
+  "CF_plate_main_XY_mm": [
+    336,
+    134
+  ],
+  "bearing_hub_abs_Y_mm": 106.0,
+  "single_closed_hoop": false,
+  "bearing_inner_races": "rotating with center tube",
+  "bearing_outer_races": "fixed in battery plate pedestals",
+  "frame_connection_tube_count": 8,
+  "four_corner_motor_abs_Y_mm": 220.0,
+  "four_corner_motor_pitch_offsets_mm": [
+    -130.0,
+    130.0
+  ],
+  "bearings_per_side": 2,
+  "wing_connection_abs_Y_mm": 600,
+  "wing_connection_top_node_Z_mm": 69.82902624463941,
+  "wing_connections_translation_inboard_Y_mm": 133,
+  "wing_motor_rotation_independent": false,
+  "bearing_pair_shared_hub_per_side": true,
+  "rotating_center_tube": {
+    "OD_mm": 8,
+    "ID_mm": 6,
+    "length_mm": 422.6,
+    "centre_XYZ_mm": [
+      108.337,
+      0.0,
+      49.0
+    ],
+    "axis": "Y",
+    "load_sizing_verified": false
+  },
+  "center_spar_fixed_to_battery": false,
+  "motor_translation_X_mm": 50,
+  "continuous_wing_rails": true,
+  "wing_rail_length_mm": 653.6108303009577,
+  "wing_rail_OD_ID_mm": [
+    14,
+    10
+  ],
+  "motor_abs_Y_mm": 211.3,
+  "rotating_landing_gear": {
+    "attachment": "Existing rotating wing/gear clamps",
+    "equal_leg_lengths": true,
+    "leg_length_mm": 540.2369850352713,
+    "skid_length_mm": 290,
+    "skid_center_Z_mm": 49.0,
+    "skid_footprint_hover_XY_mm": [
+      290,
+      398
+    ],
+    "hover_floor_Z_mm": -480.0,
+    "rotates_with_wing_and_motors": true,
+    "strength_verified": false
+  },
+  "wing_rails_location": "Closed wing tips at Y +/-775 mm, one straight tube each",
+  "battery_pod": {
+    "length_mm": 455,
+    "width_mm": 188,
+    "height_mm": 250,
+    "centre_XYZ_mm": [
+      108.337,
+      0.0,
+      3.0
+    ],
+    "reference_solid": true,
+    "wall_thickness_unassigned": true,
+    "clearance_sampling_deg": 0.5,
+    "profile_x_local": null,
+    "profile_scale": null,
+    "bearing_exit_openings_required": true,
+    "cross_section_power": 2,
+    "shape": "Smooth asymmetric oval with elliptical YZ sections and local hardware openings"
+  },
+  "span_mm": 1900,
+  "span_extension_each_side_mm": 100,
+  "wing_profile": "S1223 original UIUC coordinates",
+  "wing_chord_scale": null,
+  "wing_profiles_unchanged": true,
+  "wing_spar_OD_mm": 14,
+  "wing_spar_ID_mm": 10,
+  "main_wing_span_mm": 1750,
+  "load_sizing_verified": false,
+  "wing_design_candidate": {
+    "root_mm": 175,
+    "tip_mm": 175,
+    "front_deg": -1.3210870974813242,
+    "rear_deg": 2.083842697477617,
+    "washout_deg": 1,
+    "main_span_mm": 1750,
+    "overall_span_mm": 1900,
+    "qualification": "Geometry parameters only. Historical 1700 mm forces and performance are not a 1900 mm result."
+  },
+  "previous_geometry_checks_not_applicable": {
+    "compact_prop_screening": {
+      "all_moving_battery": [
+        3.999997310942078,
+        "single_straight_rotating_CF_center_tube_8OD_6ID_reference",
+        67.5
+      ],
+      "nonmotor_frame_props": [
+        28.162882681403413,
+        "left_single_continuous_straight_CF_wing_rail",
+        "left_upper"
+      ],
+      "fixed_pedestals_moving_members": [
+        4.0,
+        "left_rotating_tube_and_straight_wing_rail_clamp",
+        0.0
+      ],
+      "prop_battery": [
+        30.000000000000014,
+        "left_lower",
+        31.0
+      ],
+      "prop_prop_mm": 31.400000000000006,
+      "pitch_step_deg": 0.5,
+      "tube_sections": 48,
+      "disk_radial_samples": 25,
+      "disk_circumferential_samples": 144,
+      "disk_axial_thickness_mm": 16,
+      "scope": "Moving mesh vertices, face centres and edge midpoints versus conservative battery box, fixed support boxes / 18 mm-radius housing envelope and ideal prop disks. Intended tube/bearing/shaft-fit contacts excluded. Sampled, not continuous proof or full pairwise audit; mesh error, flex and fits unbounded.",
+      "fixed_hardware_props": [
+        59.23296768437696,
+        "left_fixed_battery_plate_two_bearing_pedestal",
+        72.0
+      ]
+    },
+    "symmetric_trimmed_gear_screening": {
+      "equal_leg_length_mm": 540.2369850352713,
+      "leg_count": 4,
+      "feet_Z_mm": [
+        -101.0,
+        199.0
+      ],
+      "skid_end_Z_mm": [
+        -112.0,
+        210.0
+      ],
+      "skid_protrusion_beyond_socket_mm": 0,
+      "gear_battery": [
+        33.07391357421875,
+        "left_gear_leg_-1_to_shared_joint",
+        0.0
+      ],
+      "gear_props": [
+        47.5796988082133,
+        "left_gear_leg_1_to_shared_joint",
+        "left_upper"
+      ],
+      "gear_fixed_bearing_mounts": [
+        11.223718748747968,
+        "left_gear_leg_1_to_shared_joint",
+        74.10000000000001
+      ],
+      "gear_wing_sampled_centreline_radius_bound_mm": 11.122369598404681,
+      "pitch_step_deg": 0.1,
+      "tube_sections": 48,
+      "centreline_samples_per_member": 301,
+      "scope": "New gear only; full prior airframe checks retained. Sampled geometry, not continuous collision proof; flex, tolerances and mesh errors unresolved."
+    },
+    "outer_tip_spar_screening": {
+      "all_moving_battery": [
+        3.999997310942078,
+        "single_extended_rotating_CF_center_tube_8OD_6ID_reference",
+        67.5
+      ],
+      "nonmotor_frame_props": [
+        30.048128061494932,
+        "left_PA_CF_motor_wing_frame_node",
+        "left_upper"
+      ],
+      "fixed_pedestals_moving_members": [
+        11.223718748747968,
+        "left_gear_leg_1_to_shared_joint",
+        86.0
+      ],
+      "prop_battery": [
+        30.000000000000014,
+        "left_lower",
+        31.0
+      ],
+      "prop_prop_mm": 31.4,
+      "pitch_step_deg": 0.5,
+      "tube_sections": 64,
+      "disk_radial_samples": 25,
+      "disk_circumferential_samples": 144,
+      "disk_axial_thickness_mm": 16,
+      "scope": "Moving mesh vertices, face centres and edge midpoints versus conservative battery box, fixed support boxes / 18 mm-radius housing envelope and ideal prop disks. Intended tube/bearing/shaft-fit contacts excluded. Sampled, not continuous proof or full pairwise audit; mesh error, flex and fits unbounded.",
+      "tip_core_sections": 96,
+      "tip_tube_containment": [
+        {
+          "side": "left",
+          "contained_samples": 9664
+        },
+        {
+          "side": "right",
+          "contained_samples": 9664
+        }
+      ],
+      "tip_crown_max_Z_mm": 116.02999877929688,
+      "rail_abs_Y_mm": 550.0,
+      "rail_length_mm": 653.6108303009577
+    },
+    "vertical_gear_link_screening": {
+      "all_moving_battery": [
+        3.999997310942078,
+        "single_straight_rotating_CF_center_tube_8OD_6ID_reference",
+        67.5
+      ],
+      "nonmotor_frame_props": [
+        30.048128061494932,
+        "left_PA_CF_motor_wing_frame_node",
+        "left_upper"
+      ],
+      "fixed_pedestals_moving_members": [
+        11.223718748747968,
+        "left_gear_leg_1_to_shared_joint",
+        86.0
+      ],
+      "prop_battery": [
+        30.000000000000014,
+        "left_lower",
+        31.0
+      ],
+      "prop_prop_mm": 31.4,
+      "pitch_step_deg": 0.5,
+      "tube_sections": 48,
+      "disk_radial_samples": 25,
+      "disk_circumferential_samples": 144,
+      "disk_axial_thickness_mm": 16,
+      "scope": "Moving mesh vertices, face centres and edge midpoints versus conservative battery box, fixed support boxes / 18 mm-radius housing envelope and ideal prop disks. Intended tube/bearing/shaft-fit contacts excluded. Sampled, not continuous proof or full pairwise audit; mesh error, flex and fits unbounded.",
+      "new_tube_sections": 64,
+      "vertical_link_length_mm": 181.70624742485927,
+      "link_X_mm": -155.35986942052844,
+      "link_abs_Y_mm": 148.59718659870074
+    }
+  },
+  "current_changed_part_clearance_checks": {
+    "passed": true,
+    "source_preserved": true,
+    "unchanged_cached_part_count": 81,
+    "changed_part_count": 11,
+    "changed_parts_watertight": true,
+    "pitch_sample_step_deg": 0.5,
+    "pitch_range_deg": [
+      0,
+      90
+    ],
+    "minimum_sampled_changed_parts_to_conservative_pod_box_mm": [
+      14.829856147169227,
+      "Rear_S1223_span1700",
+      33.5
+    ],
+    "minimum_sampled_changed_parts_to_prop_disk_mm": [
+      196.7470759277344,
+      "Front_S1223_span1700",
+      "left_lower"
+    ],
+    "prop_disk_thickness_mm": 16,
+    "section_error_at_nine_intermediate_span_stations_mm": {
+      "front": 0.00037150196848329865,
+      "rear": 0.000369918598541973
+    },
+    "profile_exact_similarity_error": 4.440892098500626e-16,
+    "tip_mesh_target_edge_mm": 3,
+    "main_span_station_spacing_mm": 5,
+    "scope": "Changed mesh vertices, face centers and edge midpoints. Conservative uncut pod bounding box; four ideal propeller cylinders. Wing/motor relative clearance invariant under their shared rigid transform. Intended socket/tube contacts excluded from pairwise testing.",
+    "uncertainty": "Sampled checks, not continuous or exact minimum distances; no flex/tolerance/strength or aerodynamic validation. Coordinate-data and curved-tip discretization errors are not globally bounded."
+  },
+  "wingtip_revision": {
+    "inner_bow_mm": 6,
+    "previous_inner_bow_mm": 35,
+    "root_overlap_mm": 0.5,
+    "crown_mm": 12,
+    "tip_edge_mm": 3,
+    "straight_tube_cover_y_radius_mm": 12,
+    "straight_tube_cover_z_radius_mm": 9.5,
+    "connector_component_count_per_side": 1,
+    "root_thickness": "Matched upper/lower half spacing; earlier factor-of-two error corrected",
+    "qualification": "Geometric refinement: sealed tube-cover connection, less projection, smooth root and crown. CFD candidate; no comparative aerodynamic optimum established."
+  },
+  "piped_joint_preview": {
+    "changed_joint_count": 22,
+    "unchanged_cached_parts": 64,
+    "all_joints_connected_and_watertight": true,
+    "round_sections": 64,
+    "nominal_radial_chord_error_mm": 0.019513609476207037,
+    "source_hashes": {
+      "model.js": "136714f761ca72f17ddc93083a86595d43b113f09b7b1ce6dbef777c60088e1a",
+      "mechanism.json": "4079407a6e986a3257c350b37f8c4d3aef87c6531d7a87b5fa9a62eee9f8ac60",
+      "config.js": "e74ff3a4ca20db6f76edddb883aea4adeb4521e145c1d59d0efe96ee65312d6c",
+      "viewer.js": "521579ffd90a86781fbff4876c1ef170d5e3cce5aba99220bb9d445e29f43981",
+      "index.html": "3b9bbfc3dd1f7eebd7d567df2b5f8cd4a0eef2910ef0168c7cf3b2363f43daaf"
+    },
+    "source_preserved": true,
+    "unaffected_parts_preserved": true,
+    "authorized_spar_trims": [
+      {
+        "name": "left_vertical_CF_rear_wing_to_gear_link",
+        "old_length_mm": 181.70624742485927,
+        "new_length_mm": 171.70624742485927,
+        "removed_per_end_mm": 5.0,
+        "end_setback_inside_bend_mm": 5,
+        "start": [
+          -155.35986942052844,
+          148.59718659870074,
+          -36.853123712429635
+        ],
+        "end": [
+          -155.35986942052844,
+          148.59718659870074,
+          134.85312371242964
+        ],
+        "OD_mm": 12,
+        "ID_mm": 8
+      },
+      {
+        "name": "left_rotating_CF_skid_14OD_10ID",
+        "old_length_mm": 322,
+        "new_length_mm": 290,
+        "removed_per_end_mm": 16,
+        "end_setback_inside_bend_mm": 5,
+        "start": [
+          -411.663,
+          190.0,
+          -96.0
+        ],
+        "end": [
+          -411.663,
+          190.0,
+          194.0
+        ],
+        "OD_mm": 14,
+        "ID_mm": 10
+      },
+      {
+        "name": "right_vertical_CF_rear_wing_to_gear_link",
+        "old_length_mm": 181.70624742485927,
+        "new_length_mm": 171.70624742485927,
+        "removed_per_end_mm": 5.0,
+        "end_setback_inside_bend_mm": 5,
+        "start": [
+          -155.35986942052844,
+          -148.59718659870074,
+          -36.853123712429635
+        ],
+        "end": [
+          -155.35986942052844,
+          -148.59718659870074,
+          134.85312371242964
+        ],
+        "OD_mm": 12,
+        "ID_mm": 8
+      },
+      {
+        "name": "right_rotating_CF_skid_14OD_10ID",
+        "old_length_mm": 322,
+        "new_length_mm": 290,
+        "removed_per_end_mm": 16,
+        "end_setback_inside_bend_mm": 5,
+        "start": [
+          -411.663,
+          -190.0,
+          -96.0
+        ],
+        "end": [
+          -411.663,
+          -190.0,
+          194.0
+        ],
+        "OD_mm": 14,
+        "ID_mm": 10
+      }
+    ],
+    "changed_volume_total_mm3": 392301.28413225873,
+    "prior_volume_total_mm3": 278813.1733996467,
+    "socket_grip_extension": "Additional 2 nominal spar diameters at each available gripping end. Pass-through sleeves extend on both ends; tube-end sockets extend inward only.",
+    "added_grip_by_spar_diameter_mm": {
+      "8": 16,
+      "12": 24,
+      "14": 28,
+      "18": 36
+    },
+    "extension_limits": [
+      "Inboard center-axle collars stop before the fixed bearings; extension is outboard only.",
+      "Wingtip sleeves extend toward the existing spar. Gear spar end trims are explicitly recorded.",
+      "Gear tips terminate 5 mm inside their bends; skid sleeves retain 50 mm grip.",
+      "Bearing seats and hollow connector spines are not spar-gripping sockets and retain their dimensions."
+    ],
+    "gear_elbows": "Four round 19.2 mm diameter elbows without raised straight end nubs. Actual skid tips cut 16 mm per end; rear-link tips cut 5 mm per end. Tips stop 5 mm inside bend crossings.",
+    "qualification": "Mesh preview only. Socket bores use 0.2 mm diameter allowance. Retention, bearing fits, loaded strength and continuous collision clearance are not certified. No manufacturing exports or new CFD.",
+    "fit_and_motion_audit": {
+      "passed": true,
+      "all_joint_meshes_connected_and_watertight": true,
+      "joint_tube_pair_count": 50,
+      "joint_tube_intersections_above_0_02_mm3": [],
+      "fit_pairs": [
+        {
+          "joint": "left_upper_motor_mount_block",
+          "tube": "left_single_two_motor_CF_upright",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_upper_motor_mount_block",
+          "tube": "left_gear_leg_1_to_shared_joint",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_upper_motor_mount_block",
+          "tube": "right_single_two_motor_CF_upright",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_upper_motor_mount_block",
+          "tube": "right_gear_leg_1_to_shared_joint",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_lower_motor_mount_block",
+          "tube": "left_single_two_motor_CF_upright",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_lower_motor_mount_block",
+          "tube": "left_gear_leg_-1_to_shared_joint",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_lower_motor_mount_block",
+          "tube": "right_single_two_motor_CF_upright",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_lower_motor_mount_block",
+          "tube": "right_gear_leg_-1_to_shared_joint",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_PA_CF_motor_wing_frame_node",
+          "tube": "left_single_two_motor_CF_upright",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_PA_CF_motor_wing_frame_node",
+          "tube": "left_gear_leg_-1_to_shared_joint",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_PA_CF_motor_wing_frame_node",
+          "tube": "left_gear_leg_1_to_shared_joint",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_PA_CF_motor_wing_frame_node",
+          "tube": "single_straight_rotating_CF_center_tube_8OD_6ID_reference",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_PA_CF_motor_wing_frame_node",
+          "tube": "right_single_two_motor_CF_upright",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_PA_CF_motor_wing_frame_node",
+          "tube": "right_gear_leg_-1_to_shared_joint",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_PA_CF_motor_wing_frame_node",
+          "tube": "right_gear_leg_1_to_shared_joint",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_PA_CF_motor_wing_frame_node",
+          "tube": "single_straight_rotating_CF_center_tube_8OD_6ID_reference",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_fixed_battery_plate_two_bearing_pedestal",
+          "tube": "single_straight_rotating_CF_center_tube_8OD_6ID_reference",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_fixed_battery_plate_two_bearing_pedestal",
+          "tube": "single_straight_rotating_CF_center_tube_8OD_6ID_reference",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_gear_foot_socket_-1",
+          "tube": "left_gear_leg_-1_to_shared_joint",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_gear_foot_socket_-1",
+          "tube": "left_rotating_CF_skid_14OD_10ID",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_gear_foot_socket_1",
+          "tube": "left_gear_leg_1_to_shared_joint",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_gear_foot_socket_1",
+          "tube": "left_rotating_CF_skid_14OD_10ID",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_gear_foot_socket_-1",
+          "tube": "right_gear_leg_-1_to_shared_joint",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_gear_foot_socket_-1",
+          "tube": "right_rotating_CF_skid_14OD_10ID",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_gear_foot_socket_1",
+          "tube": "right_gear_leg_1_to_shared_joint",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_gear_foot_socket_1",
+          "tube": "right_rotating_CF_skid_14OD_10ID",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_front_PA_CF_14mm_tip_spar_corner_socket_span1700",
+          "tube": "front_spanwise_CF_spar_14OD_10ID_span1700",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_front_PA_CF_14mm_tip_spar_corner_socket_span1700",
+          "tube": "left_single_straight_CF_tip_spar_14OD_10ID_span1700",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_rear_PA_CF_14mm_tip_spar_corner_socket_span1700",
+          "tube": "rear_spanwise_CF_spar_14OD_10ID_span1700",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_rear_PA_CF_14mm_tip_spar_corner_socket_span1700",
+          "tube": "left_single_straight_CF_tip_spar_14OD_10ID_span1700",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_front_PA_CF_14mm_tip_spar_corner_socket_span1700",
+          "tube": "front_spanwise_CF_spar_14OD_10ID_span1700",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_front_PA_CF_14mm_tip_spar_corner_socket_span1700",
+          "tube": "right_single_straight_CF_tip_spar_14OD_10ID_span1700",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_rear_PA_CF_14mm_tip_spar_corner_socket_span1700",
+          "tube": "rear_spanwise_CF_spar_14OD_10ID_span1700",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_rear_PA_CF_14mm_tip_spar_corner_socket_span1700",
+          "tube": "right_single_straight_CF_tip_spar_14OD_10ID_span1700",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_rotating_center_tube_landing_gear_clamp",
+          "tube": "left_gear_leg_-1_to_shared_joint",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_rotating_center_tube_landing_gear_clamp",
+          "tube": "left_gear_leg_1_to_shared_joint",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_rotating_center_tube_landing_gear_clamp",
+          "tube": "single_straight_rotating_CF_center_tube_8OD_6ID_reference",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_lower_PA_CF_gear_link_socket",
+          "tube": "left_gear_leg_-1_to_shared_joint",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_lower_PA_CF_gear_link_socket",
+          "tube": "left_vertical_CF_rear_wing_to_gear_link",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_combined_PA_CF_rear_wing_vertical_link_upper_gear_socket",
+          "tube": "rear_spanwise_CF_spar_14OD_10ID_span1700",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_combined_PA_CF_rear_wing_vertical_link_upper_gear_socket",
+          "tube": "left_gear_leg_1_to_shared_joint",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "left_combined_PA_CF_rear_wing_vertical_link_upper_gear_socket",
+          "tube": "left_vertical_CF_rear_wing_to_gear_link",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_rotating_center_tube_landing_gear_clamp",
+          "tube": "right_gear_leg_-1_to_shared_joint",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_rotating_center_tube_landing_gear_clamp",
+          "tube": "right_gear_leg_1_to_shared_joint",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_rotating_center_tube_landing_gear_clamp",
+          "tube": "single_straight_rotating_CF_center_tube_8OD_6ID_reference",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_lower_PA_CF_gear_link_socket",
+          "tube": "right_gear_leg_-1_to_shared_joint",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_lower_PA_CF_gear_link_socket",
+          "tube": "right_vertical_CF_rear_wing_to_gear_link",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_combined_PA_CF_rear_wing_vertical_link_upper_gear_socket",
+          "tube": "rear_spanwise_CF_spar_14OD_10ID_span1700",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_combined_PA_CF_rear_wing_vertical_link_upper_gear_socket",
+          "tube": "right_gear_leg_1_to_shared_joint",
+          "intersection_volume_mm3": 0.0
+        },
+        {
+          "joint": "right_combined_PA_CF_rear_wing_vertical_link_upper_gear_socket",
+          "tube": "right_vertical_CF_rear_wing_to_gear_link",
+          "intersection_volume_mm3": 0.0
+        }
+      ],
+      "testing_mesh_vertex_merge_digits_mm": 4,
+      "minimum_sampled_clearances_mm": {
+        "pod": [
+          14.701126098632812,
+          "left_rotating_center_tube_landing_gear_clamp",
+          0.0
+        ],
+        "props": [
+          29.90000354003905,
+          "left_upper_motor_mount_block",
+          "left_upper"
+        ],
+        "fixed_support_bounds": [
+          2.9000015258789062,
+          "left_rotating_center_tube_landing_gear_clamp",
+          0.0
+        ]
+      },
+      "pitch_step_deg": 0.5,
+      "round_sections": 64,
+      "unused_vertical_gear_root_ports_closed": true,
+      "unaffected_parts_preserved": true,
+      "authorized_spar_trims": [
+        {
+          "name": "left_vertical_CF_rear_wing_to_gear_link",
+          "old_length_mm": 181.70624742485927,
+          "new_length_mm": 171.70624742485927,
+          "removed_per_end_mm": 5.0,
+          "end_setback_inside_bend_mm": 5,
+          "start": [
+            -155.35986942052844,
+            148.59718659870074,
+            -36.853123712429635
+          ],
+          "end": [
+            -155.35986942052844,
+            148.59718659870074,
+            134.85312371242964
+          ],
+          "OD_mm": 12,
+          "ID_mm": 8
+        },
+        {
+          "name": "left_rotating_CF_skid_14OD_10ID",
+          "old_length_mm": 322,
+          "new_length_mm": 290,
+          "removed_per_end_mm": 16,
+          "end_setback_inside_bend_mm": 5,
+          "start": [
+            -411.663,
+            190.0,
+            -96.0
+          ],
+          "end": [
+            -411.663,
+            190.0,
+            194.0
+          ],
+          "OD_mm": 14,
+          "ID_mm": 10
+        },
+        {
+          "name": "right_vertical_CF_rear_wing_to_gear_link",
+          "old_length_mm": 181.70624742485927,
+          "new_length_mm": 171.70624742485927,
+          "removed_per_end_mm": 5.0,
+          "end_setback_inside_bend_mm": 5,
+          "start": [
+            -155.35986942052844,
+            -148.59718659870074,
+            -36.853123712429635
+          ],
+          "end": [
+            -155.35986942052844,
+            -148.59718659870074,
+            134.85312371242964
+          ],
+          "OD_mm": 12,
+          "ID_mm": 8
+        },
+        {
+          "name": "right_rotating_CF_skid_14OD_10ID",
+          "old_length_mm": 322,
+          "new_length_mm": 290,
+          "removed_per_end_mm": 16,
+          "end_setback_inside_bend_mm": 5,
+          "start": [
+            -411.663,
+            -190.0,
+            -96.0
+          ],
+          "end": [
+            -411.663,
+            -190.0,
+            194.0
+          ],
+          "OD_mm": 14,
+          "ID_mm": 10
+        }
+      ],
+      "scope": "Joint/tube overlap uses booleans on cleaned copies of actual preview meshes; 0.02 cubic mm reporting threshold. Motion checks sample vertices, face centers and edge midpoints against conservative pod and fixed-support bounds, plus ideal prop disks of 16 mm thickness. Intended tube bore and bearing contacts excluded from motion checks. Not continuous collision proof, physical fit or strength certification."
+    },
+    "terminal_skid_end_coverage": [
+      {
+        "joint": "left_gear_foot_socket_-1",
+        "actual_trimmed_spar_end_mm": [
+          -411.663,
+          190.0,
+          -96.0
+        ],
+        "cap_and_rim_outward_rays_covered": 65,
+        "all_covered": true
+      },
+      {
+        "joint": "left_gear_foot_socket_1",
+        "actual_trimmed_spar_end_mm": [
+          -411.663,
+          190.0,
+          194.0
+        ],
+        "cap_and_rim_outward_rays_covered": 65,
+        "all_covered": true
+      },
+      {
+        "joint": "right_gear_foot_socket_-1",
+        "actual_trimmed_spar_end_mm": [
+          -411.663,
+          -190.0,
+          -96.0
+        ],
+        "cap_and_rim_outward_rays_covered": 65,
+        "all_covered": true
+      },
+      {
+        "joint": "right_gear_foot_socket_1",
+        "actual_trimmed_spar_end_mm": [
+          -411.663,
+          -190.0,
+          194.0
+        ],
+        "cap_and_rim_outward_rays_covered": 65,
+        "all_covered": true
+      }
+    ]
+  },
+  "current_joint_screening": {
+    "passed": true,
+    "all_joint_meshes_connected_and_watertight": true,
+    "joint_tube_pair_count": 50,
+    "joint_tube_intersections_above_0_02_mm3": [],
+    "fit_pairs": [
+      {
+        "joint": "left_upper_motor_mount_block",
+        "tube": "left_single_two_motor_CF_upright",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_upper_motor_mount_block",
+        "tube": "left_gear_leg_1_to_shared_joint",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_upper_motor_mount_block",
+        "tube": "right_single_two_motor_CF_upright",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_upper_motor_mount_block",
+        "tube": "right_gear_leg_1_to_shared_joint",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_lower_motor_mount_block",
+        "tube": "left_single_two_motor_CF_upright",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_lower_motor_mount_block",
+        "tube": "left_gear_leg_-1_to_shared_joint",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_lower_motor_mount_block",
+        "tube": "right_single_two_motor_CF_upright",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_lower_motor_mount_block",
+        "tube": "right_gear_leg_-1_to_shared_joint",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_PA_CF_motor_wing_frame_node",
+        "tube": "left_single_two_motor_CF_upright",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_PA_CF_motor_wing_frame_node",
+        "tube": "left_gear_leg_-1_to_shared_joint",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_PA_CF_motor_wing_frame_node",
+        "tube": "left_gear_leg_1_to_shared_joint",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_PA_CF_motor_wing_frame_node",
+        "tube": "single_straight_rotating_CF_center_tube_8OD_6ID_reference",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_PA_CF_motor_wing_frame_node",
+        "tube": "right_single_two_motor_CF_upright",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_PA_CF_motor_wing_frame_node",
+        "tube": "right_gear_leg_-1_to_shared_joint",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_PA_CF_motor_wing_frame_node",
+        "tube": "right_gear_leg_1_to_shared_joint",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_PA_CF_motor_wing_frame_node",
+        "tube": "single_straight_rotating_CF_center_tube_8OD_6ID_reference",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_fixed_battery_plate_two_bearing_pedestal",
+        "tube": "single_straight_rotating_CF_center_tube_8OD_6ID_reference",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_fixed_battery_plate_two_bearing_pedestal",
+        "tube": "single_straight_rotating_CF_center_tube_8OD_6ID_reference",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_gear_foot_socket_-1",
+        "tube": "left_gear_leg_-1_to_shared_joint",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_gear_foot_socket_-1",
+        "tube": "left_rotating_CF_skid_14OD_10ID",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_gear_foot_socket_1",
+        "tube": "left_gear_leg_1_to_shared_joint",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_gear_foot_socket_1",
+        "tube": "left_rotating_CF_skid_14OD_10ID",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_gear_foot_socket_-1",
+        "tube": "right_gear_leg_-1_to_shared_joint",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_gear_foot_socket_-1",
+        "tube": "right_rotating_CF_skid_14OD_10ID",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_gear_foot_socket_1",
+        "tube": "right_gear_leg_1_to_shared_joint",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_gear_foot_socket_1",
+        "tube": "right_rotating_CF_skid_14OD_10ID",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_front_PA_CF_14mm_tip_spar_corner_socket_span1700",
+        "tube": "front_spanwise_CF_spar_14OD_10ID_span1700",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_front_PA_CF_14mm_tip_spar_corner_socket_span1700",
+        "tube": "left_single_straight_CF_tip_spar_14OD_10ID_span1700",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_rear_PA_CF_14mm_tip_spar_corner_socket_span1700",
+        "tube": "rear_spanwise_CF_spar_14OD_10ID_span1700",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_rear_PA_CF_14mm_tip_spar_corner_socket_span1700",
+        "tube": "left_single_straight_CF_tip_spar_14OD_10ID_span1700",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_front_PA_CF_14mm_tip_spar_corner_socket_span1700",
+        "tube": "front_spanwise_CF_spar_14OD_10ID_span1700",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_front_PA_CF_14mm_tip_spar_corner_socket_span1700",
+        "tube": "right_single_straight_CF_tip_spar_14OD_10ID_span1700",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_rear_PA_CF_14mm_tip_spar_corner_socket_span1700",
+        "tube": "rear_spanwise_CF_spar_14OD_10ID_span1700",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_rear_PA_CF_14mm_tip_spar_corner_socket_span1700",
+        "tube": "right_single_straight_CF_tip_spar_14OD_10ID_span1700",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_rotating_center_tube_landing_gear_clamp",
+        "tube": "left_gear_leg_-1_to_shared_joint",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_rotating_center_tube_landing_gear_clamp",
+        "tube": "left_gear_leg_1_to_shared_joint",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_rotating_center_tube_landing_gear_clamp",
+        "tube": "single_straight_rotating_CF_center_tube_8OD_6ID_reference",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_lower_PA_CF_gear_link_socket",
+        "tube": "left_gear_leg_-1_to_shared_joint",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_lower_PA_CF_gear_link_socket",
+        "tube": "left_vertical_CF_rear_wing_to_gear_link",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_combined_PA_CF_rear_wing_vertical_link_upper_gear_socket",
+        "tube": "rear_spanwise_CF_spar_14OD_10ID_span1700",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_combined_PA_CF_rear_wing_vertical_link_upper_gear_socket",
+        "tube": "left_gear_leg_1_to_shared_joint",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "left_combined_PA_CF_rear_wing_vertical_link_upper_gear_socket",
+        "tube": "left_vertical_CF_rear_wing_to_gear_link",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_rotating_center_tube_landing_gear_clamp",
+        "tube": "right_gear_leg_-1_to_shared_joint",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_rotating_center_tube_landing_gear_clamp",
+        "tube": "right_gear_leg_1_to_shared_joint",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_rotating_center_tube_landing_gear_clamp",
+        "tube": "single_straight_rotating_CF_center_tube_8OD_6ID_reference",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_lower_PA_CF_gear_link_socket",
+        "tube": "right_gear_leg_-1_to_shared_joint",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_lower_PA_CF_gear_link_socket",
+        "tube": "right_vertical_CF_rear_wing_to_gear_link",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_combined_PA_CF_rear_wing_vertical_link_upper_gear_socket",
+        "tube": "rear_spanwise_CF_spar_14OD_10ID_span1700",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_combined_PA_CF_rear_wing_vertical_link_upper_gear_socket",
+        "tube": "right_gear_leg_1_to_shared_joint",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "joint": "right_combined_PA_CF_rear_wing_vertical_link_upper_gear_socket",
+        "tube": "right_vertical_CF_rear_wing_to_gear_link",
+        "intersection_volume_mm3": 0.0
+      }
+    ],
+    "testing_mesh_vertex_merge_digits_mm": 4,
+    "minimum_sampled_clearances_mm": {
+      "pod": [
+        14.701126098632812,
+        "left_rotating_center_tube_landing_gear_clamp",
+        0.0
+      ],
+      "props": [
+        29.90000354003905,
+        "left_upper_motor_mount_block",
+        "left_upper"
+      ],
+      "fixed_support_bounds": [
+        2.9000015258789062,
+        "left_rotating_center_tube_landing_gear_clamp",
+        0.0
+      ]
+    },
+    "pitch_step_deg": 0.5,
+    "round_sections": 64,
+    "unused_vertical_gear_root_ports_closed": true,
+    "unaffected_parts_preserved": true,
+    "authorized_spar_trims": [
+      {
+        "name": "left_vertical_CF_rear_wing_to_gear_link",
+        "old_length_mm": 181.70624742485927,
+        "new_length_mm": 171.70624742485927,
+        "removed_per_end_mm": 5.0,
+        "end_setback_inside_bend_mm": 5,
+        "start": [
+          -155.35986942052844,
+          148.59718659870074,
+          -36.853123712429635
+        ],
+        "end": [
+          -155.35986942052844,
+          148.59718659870074,
+          134.85312371242964
+        ],
+        "OD_mm": 12,
+        "ID_mm": 8
+      },
+      {
+        "name": "left_rotating_CF_skid_14OD_10ID",
+        "old_length_mm": 322,
+        "new_length_mm": 290,
+        "removed_per_end_mm": 16,
+        "end_setback_inside_bend_mm": 5,
+        "start": [
+          -411.663,
+          190.0,
+          -96.0
+        ],
+        "end": [
+          -411.663,
+          190.0,
+          194.0
+        ],
+        "OD_mm": 14,
+        "ID_mm": 10
+      },
+      {
+        "name": "right_vertical_CF_rear_wing_to_gear_link",
+        "old_length_mm": 181.70624742485927,
+        "new_length_mm": 171.70624742485927,
+        "removed_per_end_mm": 5.0,
+        "end_setback_inside_bend_mm": 5,
+        "start": [
+          -155.35986942052844,
+          -148.59718659870074,
+          -36.853123712429635
+        ],
+        "end": [
+          -155.35986942052844,
+          -148.59718659870074,
+          134.85312371242964
+        ],
+        "OD_mm": 12,
+        "ID_mm": 8
+      },
+      {
+        "name": "right_rotating_CF_skid_14OD_10ID",
+        "old_length_mm": 322,
+        "new_length_mm": 290,
+        "removed_per_end_mm": 16,
+        "end_setback_inside_bend_mm": 5,
+        "start": [
+          -411.663,
+          -190.0,
+          -96.0
+        ],
+        "end": [
+          -411.663,
+          -190.0,
+          194.0
+        ],
+        "OD_mm": 14,
+        "ID_mm": 10
+      }
+    ],
+    "scope": "Joint/tube overlap uses booleans on cleaned copies of actual preview meshes; 0.02 cubic mm reporting threshold. Motion checks sample vertices, face centers and edge midpoints against conservative pod and fixed-support bounds, plus ideal prop disks of 16 mm thickness. Intended tube bore and bearing contacts excluded from motion checks. Not continuous collision proof, physical fit or strength certification."
+  },
+  "fairing_revision": {
+    "source_preview": "C:\\Users\\Box\\AstraCADWork\\20261007_piped_joints_mesh_preview",
+    "source_hashes": {
+      "model.js": "93beab4eeaf8c8646c96c73c9717a316df5f9fb2d784e8850334097f1e0fe25d",
+      "mechanism.json": "41481be323231083918f59598d812a0f98e8253240c89c057b58cbfc2cb12766",
+      "index.html": "df5cba29841ce3f6f1836f23f3409345c65d20e211fbaf543d0d83f7bdd8e270",
+      "viewer.js": "a8926dccf860edced312cdab313b4adbd3a9dad71b14a642dc7221d46c144153"
+    },
+    "source_preserved": true,
+    "changed_parts": [
+      "Both_closed_tips_S1223_span1700",
+      "egg_shaped_battery_pod_reference"
+    ],
+    "unchanged_parts": 88,
+    "pod": {
+      "length_mm": 415,
+      "width_mm": 188,
+      "height_mm": 80,
+      "cross_section_power": 6,
+      "previous_power": 10,
+      "centre_XYZ_mm": [
+        108.337,
+        0.0,
+        3.0
+      ],
+      "end_profile_knots_mm": [
+        -195.0,
+        -190.0,
+        -182.0,
+        -175.0,
+        -130.0,
+        -50.0,
+        30.0,
+        110.0,
+        175.0,
+        190.0,
+        205.0,
+        215.0,
+        220.0
+      ],
+      "end_profile_scale": [
+        0.0,
+        0.52,
+        0.84,
+        0.99,
+        0.995,
+        1.0,
+        0.998,
+        0.995,
+        0.99,
+        0.9,
+        0.72,
+        0.4,
+        0.0
+      ],
+      "battery_pack_and_plate_vertices_enclosed": true,
+      "moving_sample_overlap_hits": [],
+      "pitch_step_deg": 0.5
+    },
+    "tips": {
+      "tube_cover_radius_mm": 13,
+      "socket_shoulders_semiaxes_mm": [
+        16,
+        60,
+        17
+      ],
+      "socket_cover_checks": [
+        {
+          "surface_normal_offset_mm": 1.0,
+          "covered_vertices": 758
+        },
+        {
+          "surface_normal_offset_mm": 1.0,
+          "covered_vertices": 777
+        },
+        {
+          "surface_normal_offset_mm": 1.0,
+          "covered_vertices": 758
+        },
+        {
+          "surface_normal_offset_mm": 1.0,
+          "covered_vertices": 777
+        }
+      ],
+      "local_smoothing_max_vertex_shift_mm": 0.6000000000000589,
+      "outer_outline_held_beyond_abs_Y_mm": 825,
+      "main_S1223_meshes_unchanged": true,
+      "discarded_enclosed_foam_plug_volumes_mm3": [
+        4.114107952091217e-07,
+        7.30439116599276e-10,
+        6.476597036453313e-12
+      ],
+      "connected_fairing_bodies": 2
+    },
+    "qualification": "Mesh preview: vertices and face-centre motion samples, not continuous collision proof. Tip surface normal offsets sampled at vertices; no certified wall thickness, fit, loaded flex or new CFD. Previous L/D is not a result for this new fairing geometry."
+  },
+  "continuous_tip_revision": {
+    "source_preserved": true,
+    "changed_parts": [
+      "Both_closed_tips_S1223_span1700"
+    ],
+    "unchanged_parts": 89,
+    "blend_start_abs_Y_mm": 605.0,
+    "blend_end_abs_Y_mm": 775.0,
+    "tip_section_uniform_scale": 1.0,
+    "tip_chord_mm": 175.0,
+    "profile": "Original S1223 normalized ordinates retained by uniform XZ section scaling; quintic spanwise blend, zero first and second derivative at both ends.",
+    "tip": "Historical shared-height and 60-degree-cant loft, with continuous tube allowance. No local shoulder solids, Boolean planform trims or planar corner caps.",
+    "socket_cover_checks": [
+      {
+        "side": "left",
+        "checked_vertices": 758,
+        "offset_mm": 0.75,
+        "covered": true
+      },
+      {
+        "side": "left",
+        "checked_vertices": 777,
+        "offset_mm": 0.75,
+        "covered": true
+      },
+      {
+        "side": "left",
+        "checked_vertices": 451,
+        "offset_mm": 0.75,
+        "covered": true
+      },
+      {
+        "side": "right",
+        "checked_vertices": 758,
+        "offset_mm": 0.75,
+        "covered": true
+      },
+      {
+        "side": "right",
+        "checked_vertices": 777,
+        "offset_mm": 0.75,
+        "covered": true
+      },
+      {
+        "side": "right",
+        "checked_vertices": 451,
+        "offset_mm": 0.75,
+        "covered": true
+      }
+    ],
+    "qualification": "Mesh preview. Socket cover tested at vertices with 0.75 mm normal offsets. No certified fit or wall thickness; no new CFD.",
+    "main_wings_unchanged": true,
+    "planform": {
+      "front_outer_X_mm": 537.8359444082083,
+      "rear_outer_X_mm": -286.3425075006125,
+      "corner_extensions_removed": true,
+      "inner_connector_bow_mm": 140
+    },
+    "historical_loft": {
+      "outward_cant_deg": 60.0,
+      "maximum_outer_edge_height_mm": 116.03,
+      "outer_edge_half_thickness_mm": 2.0,
+      "historical_reference_height_mm": 116.03,
+      "method": "Root contour to common ceiling, cubic smooth blend plus quadratic cant rise."
+    }
+  },
+  "inner_tip_trim_revision": {
+    "source_preview": "C:\\Users\\Box\\AstraCADWork\\20261007_flush_tip_ends_mesh_preview",
+    "source_hashes": {
+      "model.js": "5b57944e3fbb9461ecc4850986a26a6f8d1de55355e5a8c18d3f613a249e3f57",
+      "mechanism.json": "2ccb7ac3641721e369133c7b8abcb9b80ede4a0523b4a0c2c3959b09d0069afe",
+      "index.html": "067f2f8b04ca3d57bf0afd660ba1327f78449ae9eb2892ebf79495acc17e6fbf",
+      "viewer.js": "ad19c6285975521f755a7a4a78180205eb70c35e97731124ea896a49f25a9f02"
+    },
+    "source_preserved": true,
+    "changed_parts": [
+      "Both_closed_tips_S1223_span1700"
+    ],
+    "unchanged_parts": 89,
+    "inner_edge_abs_Y_mm": 762,
+    "tip_spar_abs_Y_mm": 775,
+    "inner_skin_planform_allowance_from_spar_axis_mm": 13,
+    "trim_full_range_X_mm": [
+      -75,
+      330
+    ],
+    "smooth_shoulders_X_mm": [
+      [
+        -190,
+        -75
+      ],
+      [
+        330,
+        445
+      ]
+    ],
+    "maximum_original_inner_bow_mm": 140,
+    "maximum_trimmed_central_inner_bow_mm": 13,
+    "original_volume_mm3": 7834594.462864041,
+    "revised_volume_mm3": 3356990.2730264063,
+    "removed_volume_mm3": 4477604.189837635,
+    "removed_volume_percent": 57.15170339781424,
+    "outer_surface_sample_max_deviation_mm": 0.0,
+    "outer_surface_vertices_checked": 195835,
+    "connected_tip_bodies": 2,
+    "hardware_protection_checks": [
+      {
+        "name": "left_single_straight_CF_tip_spar_14OD_10ID_span1700",
+        "checked_points": 902,
+        "normal_allowance_mm": 0.75,
+        "cutter_hits": 0
+      },
+      {
+        "name": "left_front_PA_CF_14mm_tip_spar_corner_socket_span1700",
+        "checked_points": 1516,
+        "normal_allowance_mm": 0.75,
+        "cutter_hits": 0
+      },
+      {
+        "name": "left_rear_PA_CF_14mm_tip_spar_corner_socket_span1700",
+        "checked_points": 1554,
+        "normal_allowance_mm": 0.75,
+        "cutter_hits": 0
+      },
+      {
+        "name": "right_single_straight_CF_tip_spar_14OD_10ID_span1700",
+        "checked_points": 902,
+        "normal_allowance_mm": 0.75,
+        "cutter_hits": 0
+      },
+      {
+        "name": "right_front_PA_CF_14mm_tip_spar_corner_socket_span1700",
+        "checked_points": 1516,
+        "normal_allowance_mm": 0.75,
+        "cutter_hits": 0
+      },
+      {
+        "name": "right_rear_PA_CF_14mm_tip_spar_corner_socket_span1700",
+        "checked_points": 1554,
+        "normal_allowance_mm": 0.75,
+        "cutter_hits": 0
+      }
+    ],
+    "manufacturing_exports": false,
+    "cfd_run": false,
+    "qualification": "Mesh preview. Subtraction only; outboard surface vertex distances checked to 0.005 mm tolerance. Cutter tested against socket and tube vertices plus 0.75 mm normal offsets, not certified skin thickness, fit or loaded-flex clearance."
+  },
+  "integrated_wing_tip_revision": {
+    "source_preserved": true,
+    "source_hashes": {
+      "model.js": "9852e9efccbd63f1173d28069243872c7f6d28d07f7315455c4cfaab765ec69e",
+      "mechanism.json": "eaf37b8347a02708fdcd14f6a17368b6f2244f46ad270695d22288010dc852d0",
+      "index.html": "61d4bf9ccd7eae0cdd3456b96ddc4b8256e8f17be7aa2cf17fd7709a60732be0",
+      "viewer.js": "f1d47cfe59df8ed865d60417e447d85991117b447f760f1007ec41331a4acd8d"
+    },
+    "integrated_from": [
+      "Front_S1223_span1700",
+      "Rear_S1223_span1700",
+      "Both_closed_tips_S1223_span1700"
+    ],
+    "connected_wing_bodies": 1,
+    "unchanged_aircraft_parts": 87,
+    "mesh_simplification_tolerance_mm": 0.0,
+    "local_blend_abs_Y_mm": [
+      645,
+      820
+    ],
+    "local_blend_max_vertex_move_mm": 1.2646840309011969,
+    "local_blend_iterations": 80,
+    "outside_blend_vertices_moved": 0,
+    "socket_skin_checks": [
+      {
+        "name": "left_front_PA_CF_14mm_tip_spar_corner_socket_span1700",
+        "existing_skin_samples_checked": 451,
+        "retained": true,
+        "normal_offset_mm": 0.75
+      },
+      {
+        "name": "left_rear_PA_CF_14mm_tip_spar_corner_socket_span1700",
+        "existing_skin_samples_checked": 423,
+        "retained": true,
+        "normal_offset_mm": 0.75
+      },
+      {
+        "name": "right_front_PA_CF_14mm_tip_spar_corner_socket_span1700",
+        "existing_skin_samples_checked": 453,
+        "retained": true,
+        "normal_offset_mm": 0.75
+      },
+      {
+        "name": "right_rear_PA_CF_14mm_tip_spar_corner_socket_span1700",
+        "existing_skin_samples_checked": 423,
+        "retained": true,
+        "normal_offset_mm": 0.75
+      }
+    ],
+    "qualification": "Single connected watertight mesh preview; local bounded surface smoothing. Mesh approximation and socket cover samples checked, not manufacturing fit, loaded strength or CFD validation."
+  },
+  "smooth_corner_loft_revision": {
+    "separate_inner_edge_rail": false,
+    "minimum_mesh_edge_cap_mm": 0.15,
+    "tip_tube_cover_radius_mm": 9,
+    "printed_corner_cover_radius_mm": 12,
+    "inboard_native_S1223_preserved_to_abs_Y_mm": 600,
+    "native_profile_vertices_evaluated": 237672,
+    "corner_height_smoothness_samples": [
+      {
+        "section": "front",
+        "old_height_field_max_second_difference_mm": 2.0871993485130744,
+        "new_height_field_max_second_difference_mm": 0.035245979111302006
+      },
+      {
+        "section": "rear",
+        "old_height_field_max_second_difference_mm": 0.03715473083559573,
+        "new_height_field_max_second_difference_mm": 0.3551109330893354
+      }
+    ],
+    "source_preserved": true,
+    "source_hashes": {
+      "model.js": "2bbc45995f6b2f33a1c6ffab928f21a925800e52c3fcbaf4aca10a47928b2d62",
+      "mechanism.json": "6b777290b974d7fdc158c6220b6123ea9903afe43d77ea3daebdf81ccc1348d7",
+      "index.html": "c3cb8f797aa391ec0ef58726d1e5e3af5958fbe744f773836dc22d729247cca7",
+      "viewer.js": "5ef2508cf4688fe93e65130decf2c7177f4994bc227c9ebf6dbad0616ca9a120"
+    },
+    "method": "Additive 45 mm circular inner-opening fillets with continuous height-field extension; Boolean union with the previous material.",
+    "grid_spacing_mm": 1,
+    "gaussian_blend_scale_mm": 25,
+    "skin_triangle_target_edge_mm": 3,
+    "blend_abs_Y_mm": [
+      630,
+      845
+    ],
+    "original_enclosed_cavities_restored": 3,
+    "hardware_cover_checks": [
+      {
+        "name": "left_single_straight_CF_tip_spar_14OD_10ID_span1700",
+        "checked_vertices": 451,
+        "normal_allowance_mm": 0.75,
+        "covered": true
+      },
+      {
+        "name": "left_front_PA_CF_14mm_tip_spar_corner_socket_span1700",
+        "checked_vertices": 758,
+        "normal_allowance_mm": 0.75,
+        "covered": true
+      },
+      {
+        "name": "left_rear_PA_CF_14mm_tip_spar_corner_socket_span1700",
+        "checked_vertices": 777,
+        "normal_allowance_mm": 0.75,
+        "covered": true
+      },
+      {
+        "name": "right_single_straight_CF_tip_spar_14OD_10ID_span1700",
+        "checked_vertices": 451,
+        "normal_allowance_mm": 0.75,
+        "covered": true
+      },
+      {
+        "name": "right_front_PA_CF_14mm_tip_spar_corner_socket_span1700",
+        "checked_vertices": 758,
+        "normal_allowance_mm": 0.75,
+        "covered": true
+      },
+      {
+        "name": "right_rear_PA_CF_14mm_tip_spar_corner_socket_span1700",
+        "checked_vertices": 777,
+        "normal_allowance_mm": 0.75,
+        "covered": true
+      }
+    ],
+    "unchanged_aircraft_parts": 87,
+    "connected_material_bodies": 1,
+    "qualification": "Watertight mesh preview from smooth fields with sampled hardware clearance. Corner fairing profiles changed; original L/D does not apply. Not exact CAD, certified manufacturing fit or structural qualification.",
+    "inner_opening_fillet_radius_mm": 45,
+    "added_planform_area_mm2": 1062.8775019698078,
+    "boolean_preservation_residual_mm3": 0.18027639197922932,
+    "boolean_residual_tolerance_mm3": 25,
+    "source_preview": "C:\\Users\\Box\\AstraCADWork\\20261007_clean_inner_corner_mesh_preview"
+  },
+  "span_extension_aerodynamics_validated": false,
+  "historical_1700_wing_analysis": {
+    "root_mm": 175,
+    "tip_mm": 175,
+    "front_deg": -1.3210870974813242,
+    "rear_deg": 2.083842697477617,
+    "washout_deg": 1,
+    "speed_m_s": 17.5,
+    "main_span_mm": 1550.0,
+    "lift_N": 75.61976742088514,
+    "drag_N": 6.0120985468382315,
+    "moment_Y_Nm": -1.5813061082781132e-08,
+    "induced_drag_N": 3.6307216638595254,
+    "profile_drag_N": 2.3813768829787065,
+    "nonlinear_residual": 2.148931643741747e-09,
+    "min_polar_confidence": 0.7524500680179702,
+    "low_confidence_area_fraction": 0.12883328138813957,
+    "alpha_range_deg": [
+      -7.153654520142141,
+      -2.069841333719511
+    ],
+    "Re_range": [
+      203905.74410121524,
+      207077.51702199416
+    ],
+    "panels": 192,
+    "LD": 12.577932120000536,
+    "front": {
+      "lift_N": 36.469195603405524,
+      "drag_N": 1.9424452163189003
+    },
+    "rear": {
+      "lift_N": 39.150571817479616,
+      "drag_N": 4.069653330519332
+    },
+    "fit_residual": 7.906530541390566e-10,
+    "feasible": true
+  },
+  "span1900_revision": {
+    "source_preview": "C:\\Users\\Box\\AstraCADWork\\20261007_additive_corner_fillet_mesh_preview",
+    "preview": "C:\\Users\\Box\\AstraCADWork\\20261008_span1900_four_motor_mesh_preview",
+    "source_hashes": {
+      "additive_corner_fillet_checks.json": "a644c6374cbf69915a8125a799fa4824c0081cc1c9e10073758685e40d30a3fe",
+      "config.js": "603aca45834c4e93e6c9cd8c393ff5992ab5d8b900e8c352177e23f325871019",
+      "continuous_tip_checks.json": "8deafe6e8db9f4b8c613a9b47ff748011d8f71f86ab88f0c854e50e88c6747f4",
+      "fairing_revision.json": "b32d6f10a446e6627ef26c2d22c39b720ecfe460df73da82f480a326ff19b94f",
+      "fillet_3d_preview.png": "7ce6f9d4a83483d3e30f9ce9e2df37d8d128f2c2221fc46e12d9e0793e6aceaa",
+      "fillet_top_preview.png": "f1f257c6088f280719c29c2d7d80cdd2c5afcc0c01733bc2d2faca304c8ccdf0",
+      "index.html": "898a88990f3cf53f0ef260cc158d4bae9b7b7aa8f02d4ac4aa111c36412ba649",
+      "inner_tip_trim_checks.json": "233997eebe22137a28031adf3ef89c414bf114cdc4c37a263e09d1c6d275b394",
+      "integrated_wing_tip_checks.json": "94e2664a7482712fa532e35cbb9498970a9a6b8125729510b44c7a01207bae8b",
+      "joint-data.js": "e9abe368ec0539f38013234648d81d1fdc7108f24b31797bd81a21451ff6cf20",
+      "joint_changes.json": "47685ce6bdc594f03ada8ec8c7b7fda3c93002d95475367fb37081980df565dc",
+      "joint_validation.json": "1f7f1d0da64d42e1f4e09b6a61141a0527d31d7e7cf65245d18f05f4d9295ede",
+      "mechanism.json": "9caad1cadc198cf6ce2c277800e6ef4c29212fda394126b0bf3530c099664f10",
+      "model.js": "c3bb1720674bc4f2a3ed25569ad5ac978891f7614cf609ddee1b9429c0c5fa07",
+      "smooth_corner_loft_checks.json": "6b47b7397a53c6e59cdcd2aca089231e3c24db63a6cf5a821813418c6a3d7c80",
+      "software_view.js": "0e7fc380a5b209a92c0f7b1ba8bad0a30ecf992b6cc525b25f39172813de52df",
+      "viewer.js": "56e7add738300c28585171a3577a022f9b6397c6efd2508f68c40a0735e3a5e5"
+    },
+    "overall_span_mm": 1900,
+    "main_span_mm": 1750,
+    "extension_each_side_mm": 100,
+    "motor_count": 4,
+    "unchanged_parts": 79,
+    "changed_parts": [
+      "Continuous_S1223_ring_wing_span1900",
+      "front_spanwise_CF_spar_14OD_10ID_span1900",
+      "rear_spanwise_CF_spar_14OD_10ID_span1900",
+      "left_single_straight_CF_tip_spar_14OD_10ID_span1900",
+      "left_front_PA_CF_14mm_tip_spar_corner_socket_span1900",
+      "left_rear_PA_CF_14mm_tip_spar_corner_socket_span1900",
+      "right_single_straight_CF_tip_spar_14OD_10ID_span1900",
+      "right_front_PA_CF_14mm_tip_spar_corner_socket_span1900",
+      "right_rear_PA_CF_14mm_tip_spar_corner_socket_span1900"
+    ],
+    "original_faces_and_mesh_topology_preserved": true,
+    "watertight": true,
+    "winding_consistent": true,
+    "inner_wing_geometry_preserved_to_abs_Y_mm": 400,
+    "tips_rigidly_translated_from_abs_Y_mm": 600,
+    "corner_fillet_radius_mm": 45,
+    "main_chord_mm": 175,
+    "spar_OD_ID_mm": [
+      14,
+      10
+    ],
+    "native_section_XZ_coordinates_unchanged": true,
+    "washout": "Existing profile stations are smoothly reparameterized along Y; root and tip angles retained.",
+    "wing_material_volume_ratio": 1.0898846037409022,
+    "wing_mesh_edge_length_median_mm": 2.9836600133593283,
+    "wing_mesh_edge_length_95pct_mm": 4.550640697176883,
+    "mesh_note": "Existing mesh topology retained. C2 span mapping can lengthen some triangles; this is a preview, not a remeshed manufacturing artifact.",
+    "rotor_interaction_geometry_preserved": true,
+    "rotor_envelope_outer_abs_Y_mm": 325.6,
+    "changed_face_min_abs_Y_mm": 400.0,
+    "motion_samples": [
+      {
+        "tilt_deg": 0.0,
+        "changed_surface_to_prop_envelope_Y_separation_mm": 74.39999999999998
+      },
+      {
+        "tilt_deg": 5.0,
+        "changed_surface_to_prop_envelope_Y_separation_mm": 74.39999999999998
+      },
+      {
+        "tilt_deg": 10.0,
+        "changed_surface_to_prop_envelope_Y_separation_mm": 74.39999999999998
+      },
+      {
+        "tilt_deg": 15.0,
+        "changed_surface_to_prop_envelope_Y_separation_mm": 74.39999999999998
+      },
+      {
+        "tilt_deg": 20.0,
+        "changed_surface_to_prop_envelope_Y_separation_mm": 74.39999999999998
+      },
+      {
+        "tilt_deg": 25.0,
+        "changed_surface_to_prop_envelope_Y_separation_mm": 74.39999999999998
+      },
+      {
+        "tilt_deg": 30.0,
+        "changed_surface_to_prop_envelope_Y_separation_mm": 74.39999999999998
+      },
+      {
+        "tilt_deg": 35.0,
+        "changed_surface_to_prop_envelope_Y_separation_mm": 74.39999999999998
+      },
+      {
+        "tilt_deg": 40.0,
+        "changed_surface_to_prop_envelope_Y_separation_mm": 74.39999999999998
+      },
+      {
+        "tilt_deg": 45.0,
+        "changed_surface_to_prop_envelope_Y_separation_mm": 74.39999999999998
+      },
+      {
+        "tilt_deg": 50.0,
+        "changed_surface_to_prop_envelope_Y_separation_mm": 74.39999999999998
+      },
+      {
+        "tilt_deg": 55.0,
+        "changed_surface_to_prop_envelope_Y_separation_mm": 74.39999999999998
+      },
+      {
+        "tilt_deg": 60.0,
+        "changed_surface_to_prop_envelope_Y_separation_mm": 74.39999999999998
+      },
+      {
+        "tilt_deg": 65.0,
+        "changed_surface_to_prop_envelope_Y_separation_mm": 74.39999999999998
+      },
+      {
+        "tilt_deg": 70.0,
+        "changed_surface_to_prop_envelope_Y_separation_mm": 74.39999999999998
+      },
+      {
+        "tilt_deg": 75.0,
+        "changed_surface_to_prop_envelope_Y_separation_mm": 74.39999999999998
+      },
+      {
+        "tilt_deg": 80.0,
+        "changed_surface_to_prop_envelope_Y_separation_mm": 74.39999999999998
+      },
+      {
+        "tilt_deg": 85.0,
+        "changed_surface_to_prop_envelope_Y_separation_mm": 74.39999999999998
+      },
+      {
+        "tilt_deg": 90.0,
+        "changed_surface_to_prop_envelope_Y_separation_mm": 74.39999999999998
+      }
+    ],
+    "tip_hardware_fit_preservation": [
+      {
+        "name": "left_single_straight_CF_tip_spar_14OD_10ID_span1900",
+        "rigid_translation_Y_mm": 100,
+        "geometry_and_fit_preserved": true
+      },
+      {
+        "name": "left_front_PA_CF_14mm_tip_spar_corner_socket_span1900",
+        "rigid_translation_Y_mm": 100,
+        "geometry_and_fit_preserved": true
+      },
+      {
+        "name": "left_rear_PA_CF_14mm_tip_spar_corner_socket_span1900",
+        "rigid_translation_Y_mm": 100,
+        "geometry_and_fit_preserved": true
+      },
+      {
+        "name": "right_single_straight_CF_tip_spar_14OD_10ID_span1900",
+        "rigid_translation_Y_mm": -100,
+        "geometry_and_fit_preserved": true
+      },
+      {
+        "name": "right_front_PA_CF_14mm_tip_spar_corner_socket_span1900",
+        "rigid_translation_Y_mm": -100,
+        "geometry_and_fit_preserved": true
+      },
+      {
+        "name": "right_rear_PA_CF_14mm_tip_spar_corner_socket_span1900",
+        "rigid_translation_Y_mm": -100,
+        "geometry_and_fit_preserved": true
+      }
+    ],
+    "no_manufacturing_exports": true,
+    "cfd_run": false,
+    "main_wing_area_increase_percent": 12.903225806451623,
+    "constant_lift_speed_span_efficiency_induced_drag_ratio": 0.7844897959183673,
+    "qualification": "Geometry-only mesh preview. Existing clearances retained; changed geometry is separated from the old rotor region across linked tilt. Previous sampled socket/fairing fit remains sampled evidence. Added structural weight, 14 mm spar strength, deformation, complete pitch trim and new drag are not validated."
+  },
+  "full_oval_pod_revision": {
+    "source_preview": "C:\\Users\\Box\\AstraCADWork\\20261008_span1900_four_motor_mesh_preview",
+    "source_hashes": {
+      "model.js": "42bb2631b5c93f7e135020d1a25934d2362a1db1aad0d86cb0a5d9ff429d9cfa",
+      "mechanism.json": "6bb05b05922d804ca77f2ca0869801c860485e051506df6cbe7ed58b60bcad5c",
+      "index.html": "dc6c86cea741fc66f9f435b3d2d2db8dbdc5427caae423ebff548804b416041c",
+      "viewer.js": "647f7e05415c8f0a461f1de7f79f407fca552227ee7fdb638ae7520188cf9c1b"
+    },
+    "source_preserved": true,
+    "changed_parts": [
+      "egg_shaped_battery_pod_reference"
+    ],
+    "unchanged_parts": 87,
+    "outer_dimensions_mm": [
+      455,
+      188,
+      250
+    ],
+    "outer_bounds_mm": [
+      [
+        -106.663,
+        -94.0,
+        -122.0
+      ],
+      [
+        348.337,
+        94.0,
+        128.0
+      ]
+    ],
+    "centre_XYZ_mm": [
+      108.337,
+      0.0,
+      3.0
+    ],
+    "previous_height_mm": 80,
+    "cross_section": "True ellipse; Z follows a smooth asymmetric oval. Broad Y shoulders enclose the unchanged rectangular battery.",
+    "longitudinal_Y_scale": "sqrt(1-u^6)",
+    "longitudinal_Z_scale": "sqrt(1-u^2)",
+    "longitudinal_X_function": "u*(227.5 + 12.5*tanh(4*u)/tanh(4))",
+    "bearing_pocket_radius_mm": 19,
+    "axle_passage_radius_mm": 6.5,
+    "support_pocket_axis_margin_mm": 2,
+    "battery_pack_and_plate_vertices_enclosed": true,
+    "battery_vertices_min_mesh_distance_to_outer_mm": 3.872815400115942,
+    "rotor_envelope_Y_separation_mm": 3.000000000000014,
+    "gear_Y_separation_mm": 2.7011260986328125,
+    "hardware_mesh_intersection_checks": [
+      {
+        "name": "left_fixed_battery_plate_two_bearing_pedestal",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "name": "left_fixed_bearing_pedestal_bolt_-8",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "name": "left_fixed_bearing_pedestal_bolt_8",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "name": "left_Y80_rotating_metal_tube_bearing_sleeve",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "name": "left_Y80_bearing_inner_race_rotating",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "name": "left_Y80_bearing_outer_race_fixed",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "name": "left_Y90_rotating_metal_tube_bearing_sleeve",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "name": "left_Y90_bearing_inner_race_rotating",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "name": "left_Y90_bearing_outer_race_fixed",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "name": "right_fixed_battery_plate_two_bearing_pedestal",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "name": "right_fixed_bearing_pedestal_bolt_-8",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "name": "right_fixed_bearing_pedestal_bolt_8",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "name": "right_Y80_rotating_metal_tube_bearing_sleeve",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "name": "right_Y80_bearing_inner_race_rotating",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "name": "right_Y80_bearing_outer_race_fixed",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "name": "right_Y90_rotating_metal_tube_bearing_sleeve",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "name": "right_Y90_bearing_inner_race_rotating",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "name": "right_Y90_bearing_outer_race_fixed",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "name": "single_straight_rotating_CF_center_tube_8OD_6ID_reference",
+        "intersection_volume_mm3": 0.0
+      }
+    ],
+    "wing_mesh_intersection_checks": [
+      {
+        "tilt_deg": 0.0,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "tilt_deg": 28.0,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "tilt_deg": 29.0,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "tilt_deg": 30.0,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "tilt_deg": 90.0,
+        "intersection_volume_mm3": 0.0
+      }
+    ],
+    "wing_nearest_implicit_sample": [
+      1.1097634093299624,
+      29.0
+    ],
+    "tilt_step_deg": 0.5,
+    "tilt_range_deg": [
+      0,
+      90
+    ],
+    "moving_vertex_and_face_centre_hits": [],
+    "profile_stations": 241,
+    "section_segments": 192,
+    "faces": 94180,
+    "median_mesh_edge_mm": 2.74552338150437,
+    "mesh_edge_95pct_mm": 4.666752379779865,
+    "watertight": true,
+    "connected_bodies": 1,
+    "wing_and_motor_geometry_unchanged": true,
+    "cfd_run": false,
+    "no_manufacturing_exports": true,
+    "qualification": "Outer-fairing reference mesh with local bearing/support/axle clearances. Landing gear is already outside its width throughout linked tilt. Vertex/face-centre sweep at 0.5 degrees plus targeted mesh intersections is not an exact continuous clearance proof. Prop gap is only 3 mm geometrically, without flex allowance. Wall thickness, internal mounts, manufacture and new aerodynamic performance remain unverified."
+  },
+  "internal_center_lock_revision": {
+    "preview_only": true,
+    "source_sha256": {
+      "model.js": "c06f3d04eed69d0ce702a227b04b3f0beb44b1a6ea6c7c50ca07cfb520bcd38b",
+      "mechanism.json": "204ce12b003beba417b979374273a1d5fa0119294625bbf1abb35da4b02be84f",
+      "index.html": "7d3f70769295907fa66336a9cfe334469634265285c49b93bee962e4793552c9"
+    },
+    "accepted_source_preserved": true,
+    "pivot_XYZ_mm": [
+      108.337,
+      0.0,
+      49.0
+    ],
+    "collar_center_Y_mm": 0,
+    "lock_base_bottom_Z_mm": 23,
+    "top_CF_plate_Z_mm": 23,
+    "battery_translation_Z_mm": -18,
+    "CF_plate_corner_chamfer_mm": 20,
+    "pod_top_bottom_Z_mm": [
+      128,
+      -122
+    ],
+    "pod_dimensions_mm": [
+      455,
+      188,
+      250
+    ],
+    "tube_OD_ID_mm": [
+      35,
+      31
+    ],
+    "full_35mm_bearing_and_root_conversion_deferred": true,
+    "collar_to_plate_gap_mm": 3.5,
+    "endpoint_alignment": [
+      {
+        "angle_deg": 0,
+        "error_mm": 0.0
+      },
+      {
+        "angle_deg": 90,
+        "error_mm": 1.4210854715202004e-14
+      }
+    ],
+    "tilt_sampling_deg": 0.5,
+    "circle_segments": 96,
+    "pod_profile_stations": 241,
+    "pod_section_segments": 192,
+    "local_module_intersections": [],
+    "battery_intersections": [],
+    "mechanism_outside_outer_pod": [],
+    "battery_vertices_min_outer_skin_distance_mm": 3.3153677237926322,
+    "wing_nearest_implicit_sample": [
+      1.1097634093299624,
+      29.0
+    ],
+    "wing_outer_containment_hits": [],
+    "release_samples": 61,
+    "release_structure_hits": [],
+    "max_rod_length_error_mm": 2.1316282072803006e-14,
+    "crank_radius_mm": 12.0,
+    "rod_length_mm": 57.0,
+    "servo_crank_axis_XYZ_mm": [
+      163.337,
+      -51.87252113708641,
+      90.0
+    ],
+    "servo_angles_deg": [
+      70.0,
+      83.57549640379325,
+      142.55089697745504
+    ],
+    "no_manufacturing_exports": true,
+    "qualification": "Sampled mesh layout. Cam contact, material/load sizing, servo and springs, plate reinforcement/fasteners and full 35 mm shaft/bearing/root conversion remain preliminary. Pod is an outer fairing reference, not a wall-thickness design.",
+    "ui_checks": [
+      "0-degree lock retains pin; rotation disabled",
+      "One servo releases catch then withdraws pin",
+      "45-degree angle prevents seating",
+      "90-degree pin and catch engagement verified",
+      "Returned to locked 0 with cutaway egg visible"
+    ]
+  },
+  "full_35mm_shaft_conversion_deferred": true,
+  "simple_internal_slider_lock_revision": {
+    "preview_only": true,
+    "source": "C:\\Users\\Box\\AstraCADWork\\20261008_internal_center_lock_mesh_preview",
+    "source_sha256": {
+      "model.js": "bb99cc20436682859a252bfd6678829256345bf4689bfcdb9b7e3e8679d67fb4",
+      "context.js": "bda5a6b9a968523ee27c99e70c7f8fd26a334d966e5f4b679384b75994a0f8a1",
+      "pod-outer.js": "4a3ce85a79142d11f8842d591894947a67391d7ef4f2b5f633b2a028bd0c26b5",
+      "mechanism.json": "b25f1a7c1123efa90ce8e42525b6db0bb28527ba1d0d2907a0b69f2296500331"
+    },
+    "source_preserved": true,
+    "removed_parts": [
+      "Captured_6mm_lock_pin",
+      "Lock_pin_retention_shoulder",
+      "Spring_closed_safety_pawl",
+      "Safety_pawl_pivot",
+      "Release_servo_envelope_not_selected",
+      "Servo_plate_mount_platform",
+      "Servo_plate_mount_post_-18",
+      "Servo_plate_mount_post_18",
+      "Servo_output_shaft",
+      "12mm_servo_crank",
+      "57mm_connecting_rod",
+      "Crank_rod_pivot",
+      "Rod_slider_pivot",
+      "Rod_slider_lower_lug",
+      "Slider_clevis_2mm_lost_motion_reference",
+      "Slider_guide_rail_left",
+      "Slider_guide_rail_right",
+      "Guide_mount_crossbar_with_rod_passage",
+      "Catch_cam_shoe_reference",
+      "Return_spring_envelope_-30",
+      "Spring_pull_arm_-30",
+      "Spring_anchor_-30",
+      "Spring_anchor_post_-30",
+      "Spring_anchor_fork_arm_-30",
+      "Return_spring_envelope_30",
+      "Spring_pull_arm_30",
+      "Spring_anchor_30",
+      "Spring_anchor_post_30",
+      "Spring_anchor_fork_arm_30"
+    ],
+    "retained_parts": [
+      "35mm_CF_tube_2mm_wall_reference",
+      "Composite_bonded_collar_and_8mm_index_quadrant",
+      "hover_wear_bushing_6p1mm_bore",
+      "cruise_wear_bushing_6p1mm_bore",
+      "near_fixed_fork_cheek_4mm",
+      "far_fixed_fork_cheek_4mm",
+      "Moving_stop_tab",
+      "Cruise_hard_stop",
+      "Cruise_stop_support",
+      "Hover_hard_stop",
+      "Hover_stop_support_column",
+      "Hover_stop_support_arm",
+      "CF_plate_mounted_lock_base",
+      "Lock_mount_M4_reference_-35_-32",
+      "Lock_mount_M4_reference_-35_32",
+      "Lock_mount_M4_reference_35_-32",
+      "Lock_mount_M4_reference_35_32",
+      "Battery_plate_bearing_support_spacer_-1",
+      "Battery_plate_bearing_support_spacer_1"
+    ],
+    "pivot_XYZ_mm": [
+      108.337,
+      0.0,
+      49.0
+    ],
+    "pin_axis_point_XYZ_mm": [
+      108.337,
+      0.0,
+      99.0
+    ],
+    "pin_axis": "Y; straight axial translation",
+    "bolt_stroke_mm": 17,
+    "rod_endpoint_Z_mm": 99,
+    "crank_radius_mm": 12.0,
+    "rod_length_mm": 38.0,
+    "servo_offset_X_mm": 45.0,
+    "crank_axis_XYZ_mm": [
+      153.337,
+      -45.617460457313626,
+      99.0
+    ],
+    "servo_angles_deg": [
+      70.0,
+      130.71447813974495
+    ],
+    "circle_segments": 96,
+    "local_motion_step_deg": 0.5,
+    "local_module_intersections": [],
+    "release_samples": 61,
+    "release_structure_hits": [],
+    "max_rod_length_error_mm": 2.842170943040401e-14,
+    "outside_pod_samples": [],
+    "battery_intersections": [],
+    "retention": "Powered servo holding; optional axial ring magnet assist. No independent catch or spring return.",
+    "magnet_dimensions_reference_OD_ID_length_mm": [
+      8,
+      6.4,
+      2
+    ],
+    "magnet_holding_force_unrated": true,
+    "magnet_default_enabled": false,
+    "full_aircraft_context_unchanged": true,
+    "plate_and_pod_mounting_unchanged": true,
+    "no_manufacturing_exports": true,
+    "qualification": "Sampled mesh preview. Servo torque, magnetic retention, loss-of-power behavior and structural capacity not qualified. Full 35 mm tube/bearing/socket conversion remains deferred."
+  }
+}

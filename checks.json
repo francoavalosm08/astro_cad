@@ -1,0 +1,121 @@
+{
+  "preview_only": true,
+  "source": "C:\\Users\\Box\\AstraCADWork\\20261008_internal_center_lock_mesh_preview",
+  "source_sha256": {
+    "model.js": "bb99cc20436682859a252bfd6678829256345bf4689bfcdb9b7e3e8679d67fb4",
+    "context.js": "bda5a6b9a968523ee27c99e70c7f8fd26a334d966e5f4b679384b75994a0f8a1",
+    "pod-outer.js": "4a3ce85a79142d11f8842d591894947a67391d7ef4f2b5f633b2a028bd0c26b5",
+    "mechanism.json": "b25f1a7c1123efa90ce8e42525b6db0bb28527ba1d0d2907a0b69f2296500331"
+  },
+  "source_preserved": true,
+  "removed_parts": [
+    "Captured_6mm_lock_pin",
+    "Lock_pin_retention_shoulder",
+    "Spring_closed_safety_pawl",
+    "Safety_pawl_pivot",
+    "Release_servo_envelope_not_selected",
+    "Servo_plate_mount_platform",
+    "Servo_plate_mount_post_-18",
+    "Servo_plate_mount_post_18",
+    "Servo_output_shaft",
+    "12mm_servo_crank",
+    "57mm_connecting_rod",
+    "Crank_rod_pivot",
+    "Rod_slider_pivot",
+    "Rod_slider_lower_lug",
+    "Slider_clevis_2mm_lost_motion_reference",
+    "Slider_guide_rail_left",
+    "Slider_guide_rail_right",
+    "Guide_mount_crossbar_with_rod_passage",
+    "Catch_cam_shoe_reference",
+    "Return_spring_envelope_-30",
+    "Spring_pull_arm_-30",
+    "Spring_anchor_-30",
+    "Spring_anchor_post_-30",
+    "Spring_anchor_fork_arm_-30",
+    "Return_spring_envelope_30",
+    "Spring_pull_arm_30",
+    "Spring_anchor_30",
+    "Spring_anchor_post_30",
+    "Spring_anchor_fork_arm_30"
+  ],
+  "retained_parts": [
+    "35mm_CF_tube_2mm_wall_reference",
+    "Composite_bonded_collar_and_8mm_index_quadrant",
+    "hover_wear_bushing_6p1mm_bore",
+    "cruise_wear_bushing_6p1mm_bore",
+    "near_fixed_fork_cheek_4mm",
+    "far_fixed_fork_cheek_4mm",
+    "Moving_stop_tab",
+    "Cruise_hard_stop",
+    "Cruise_stop_support",
+    "Hover_hard_stop",
+    "Hover_stop_support_column",
+    "Hover_stop_support_arm",
+    "CF_plate_mounted_lock_base",
+    "Lock_mount_M4_reference_-35_-32",
+    "Lock_mount_M4_reference_-35_32",
+    "Lock_mount_M4_reference_35_-32",
+    "Lock_mount_M4_reference_35_32",
+    "Battery_plate_bearing_support_spacer_-1",
+    "Battery_plate_bearing_support_spacer_1"
+  ],
+  "pivot_XYZ_mm": [
+    108.337,
+    0.0,
+    49.0
+  ],
+  "pin_axis_point_XYZ_mm": [
+    108.337,
+    0.0,
+    99.0
+  ],
+  "pin_axis": "Y; straight axial translation",
+  "bolt_stroke_mm": 17,
+  "rod_endpoint_Z_mm": 99,
+  "crank_radius_mm": 12.0,
+  "rod_length_mm": 38.0,
+  "servo_offset_X_mm": 45.0,
+  "crank_axis_XYZ_mm": [
+    153.337,
+    -45.617460457313626,
+    99.0
+  ],
+  "servo_angles_deg": [
+    70.0,
+    130.71447813974495
+  ],
+  "circle_segments": 96,
+  "local_motion_step_deg": 0.5,
+  "local_module_intersections": [],
+  "release_samples": 61,
+  "release_structure_hits": [],
+  "max_rod_length_error_mm": 2.842170943040401E-14,
+  "outside_pod_samples": [],
+  "battery_intersections": [],
+  "retention": "Powered servo holding; optional axial ring magnet assist. No independent catch or spring return.",
+  "magnet_dimensions_reference_OD_ID_length_mm": [
+    8,
+    6.4,
+    2
+  ],
+  "magnet_holding_force_unrated": true,
+  "magnet_default_enabled": false,
+  "full_aircraft_context_unchanged": true,
+  "plate_and_pod_mounting_unchanged": true,
+  "no_manufacturing_exports": true,
+  "qualification": "Sampled mesh preview. Servo torque, magnetic retention, loss-of-power behavior and structural capacity not qualified. Full 35 mm tube/bearing/socket conversion remains deferred.",
+  "ui_verification": {
+    "retract_travel_mm": 17,
+    "intermediate_45_degree_engagement_disabled": true,
+    "endpoint_0_and_90_engagement_verified": true,
+    "engaged_rotation_disabled": true,
+    "optional_magnet_toggle_verified": true,
+    "browser_console_errors": [],
+    "final_state": "0 degrees engaged, servo holding, magnet off, 3D inside egg",
+    "screenshots": [
+      "simple_lock_preview.png",
+      "straight_slider_top.png"
+    ]
+  }
+}
