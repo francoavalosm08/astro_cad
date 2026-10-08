@@ -4,10 +4,11 @@ This repository captures the **October 8, 2026 mesh preview** of the current Ast
 
 ## Open the designer
 
-Open `index.html` in a desktop browser. All required JavaScript and mesh data are in this folder, so an internet connection is not needed for the designer itself. If the browser restricts local files, serve this directory:
+Clone the repository, then open `index.html` in a desktop browser. All required JavaScript and mesh data are in the clone, so an internet connection is not needed for the designer itself. If the browser restricts local files, serve the clone:
 
 ```powershell
-cd 'C:\Users\Box\AstraCADWork\20261008_simple_internal_slider_lock'
+git clone https://github.com/francoavalosm08/astro_cad.git
+cd astro_cad
 python -m http.server 8922
 ```
 
